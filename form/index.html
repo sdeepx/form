@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="frm.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="signup">
+		<h1>User SignUp</h1> 
+
+	</div>
+
+
+	<div class="frm_bdy"> <!-- form body size -->
+		<form method="POST" action="home.html">
+			<dev class="frm_content">
+				<table align="center" cellspacing="5">
+					<tr >
+
+						<tr>
+				
+				<td>
+				<input type="text" id="fname" name="fname" placeholder="Enter First Name" required="required"> </td> </tr>
+				<tr>
+
+				<td>
+				<input type="text" id="sname" name="sname" placeholder="Enter Surname" required="required">
+				 </td> </tr>
+
+				 <td>
+				<input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required="required">
+				 </td> </tr>
+
+				<tr>
+				<td>
+				<input type="text" id="uname" name="uname" placeholder="Create UserName" required="required">
+				 </td> </tr>
+
+				<tr> 
+				<td>
+				<input type="Email" id="email" name="Email" placeholder="Enter Email" required="required">
+				 </td> </tr>
+
+				<tr> 
+				<td>
+				<input type="Password" id="psswrd" name="Password" placeholder="Create New Password" required="required">
+				 </td> </tr>
+
+				  <tr>
+				 	<td> <br><label> Birthday : </label>
+				 		<input type="date" name="dob" required="required">
+				 	</td>
+				 </tr>
+				 
+					</tr>
+				</table>
+			</dev>
+			<div class="gender">
+			<table align="center">
+			<tr>
+				 	<td> <label>Gender : </label>
+				 		<input type="radio" name="gender" required="required"> Male 
+				 		<input type="radio" name="gender" required="required"> Female
+				 	</td>
+				 </tr>
+				 </table>
+				</div>
+
+			<!-- only button -->	
+			<div class="btn">
+				<table align="center">
+
+			<tr><td>	
+				
+				<input type="submit" onclick="signUp()" name="submit" value="Sign Up" >
+
+				 </td> </tr>
+				 </table>
+				</div>
+
+		</form>
+
+		
+	</div>
+
+</body>
+</html>

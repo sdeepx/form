@@ -1,0 +1,143 @@
+
+
+body {
+  background: url(img02.3.jpg)60% 0;
+
+
+}
+
+.signup {
+	text-align: center;
+	width: 100%;
+	height: calc(4em - 0.2rem + 4px );
+	background:url(img02.3.jpg);
+	color: #81F7F3;
+	border: 1px solid #0000FF;
+}
+	
+
+
+/* form body size accoding to screen start  */
+.frm_bdy, .signup {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+}
+
+@media (min-width: 300px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 290px;
+	}
+}
+
+@media (min-width: 400px) {
+	.frm_bdy, .signup, .game    {
+		max-width: 390px;
+	}
+}
+
+@media (min-width: 576px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 560px;
+	}
+}
+
+@media (min-width: 768px) {
+	.frm_bdy, .signup, .game   {
+		max-width:730px;
+	}
+}
+
+@media (min-width: 960px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 945px;
+	}
+}
+
+@media (min-width: 1080px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 1060px;
+	}
+}
+
+@media (min-width: 1140px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 1120px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 1280px;
+	}
+}
+
+@media (min-width: 1368px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 1380px;
+	}
+}
+
+@media (min-width: 1568px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 1590px;
+	}
+}
+
+@media (min-width: 2180px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 2200px;
+	}
+}
+
+@media (min-width: 2680px) {
+	.frm_bdy, .signup, .game   {
+		max-width: 2700px;
+	}
+}
+
+/* ended */
+
+/* frm content style */
+
+.frm_content input{
+  width: 100%;
+  height: calc(1.5em + 1rem + 2px);
+  margin-top: 5px;
+  padding: 0.5em;
+  font-size: 1em;
+  color: #495057;
+  background-color: #ffff;
+  border: 1.1px solid #ced4da;
+  border-radius:0.56em;
+
+}
+::placeholder {
+	color:#A4A4A4;
+}
+
+.frm_content input:hover {
+	background: transparent;
+	color: white;
+	border-radius: 1em;
+	
+}
+
+/* button style */
+.btn input{
+
+	margin-top: 1em;
+	font-size:1em;
+	position: relative;
+	width: 110%;
+	height: calc(1em + 1rem + 1px);
+	color: #A9F5F2;
+	background-color: #0101DF;
+	border: 1px solid #0B0B3B;
+	border-radius: 0.8em;
+
+}
+label {
+	color:#BDBDBD;
+}

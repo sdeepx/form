@@ -1,0 +1,75 @@
+
+
+body {
+	width: 100%;
+	background: url(img02.4.jpg)90% 10%;
+}
+
+.game h1{
+	
+	width: 100%;
+	font-style: italic;
+	color: #F2F2F2;
+	font-family: Gill Sans Extrabold, sans-serif;
+	text-align: center;
+	animation-name: hanimation;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes hanimation {
+	0% {margin-left:-2000px;}
+	0% {margin-left:-2000px;}
+	100% {margin-left:10px;}	
+
+}
+
+.n_game {
+	margin-top: 40px;
+	color: #2E2E2E;
+	padding: 1.5em;
+	position: relative;
+	background: url(img02.4.jpg)30% 60%;
+	width: 100%;
+	height: calc(20em - 3rem - 2px);
+	border:1px solid #8181F7;
+}
+
+label{
+	font-family:  Lucida Console, Courier, monospace;
+	font-size: calc(1.3em + 1px);
+	font-style: italic;
+	color: #A9F5F2;
+}
+
+.n_game #number {
+	color: #0A0A2A;
+	text-align: center;
+	width: 65%;
+	background: #fff;
+	border:1px solid #2EFEF7;
+	border-radius: 1em;
+	height: calc(1.2em + 0.77rem + 4px);
+
+}
+
+
+.n_game #submitguess {
+	background: #fff;
+	width: 40%;
+	padding: calc(0.4em + 2px);
+	border:2px solid #2E2EFE;
+	border-radius: 1em;
+	color: #0B0B3B;
+	font-size: 1em;
+	font-family: Gill Sans Extrabold, sans-serif;
+
+}
+
+.n_game #submitguess:hover {
+	color: #fff;
+	background: transparent;
+	border-radius: 1.2em;
+	
+}
